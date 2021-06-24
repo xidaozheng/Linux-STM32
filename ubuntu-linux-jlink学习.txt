@@ -1,0 +1,6 @@
+1、安装不是问题
+2、通过JlinkExe进入操作界面
+3、使用USB指令通过usb连接终端设备
+4、使用exec device=STM32F107VC指定单片机
+5、使用erase擦除单片机
+6、使用loadbin /home/xi/Desktop.bin,0x8000000    写入bin文件，注意8后面是6个0
